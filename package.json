@@ -1,0 +1,15 @@
+{
+  "name": "qa-challenge-demoqa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run --spec \"cypress/e2e/**/*cy.js\"",
+    "open": "cypress open",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.js\"",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "faker": "^5.5.3"
+  }
+}
